@@ -1,0 +1,97 @@
+texts = [
+    # Math (20)
+    "what is 5+7",
+    "solve 10*3",
+    "find derivative of x^3",
+    "integrate x^2",
+    "what is the square root of 81",
+    "simplify 3x + 5x",
+    "solve the equation 2x = 10",
+    "what is the area of a circle",
+    "calculate 12 divided by 3",
+    "what is the value of pi",
+    "find the limit of sin x over x",
+    "expand (x+3)^2",
+    "what is 7 factorial",
+    "solve the inequality x > 5",
+    "what is the median of 3 9 12",
+    "compute 4^3",
+    "what is the perimeter of a square",
+    "find the slope of the line",
+    "what is the probability of rolling a 6",
+    "convert 0.75 to a fraction",
+
+    # Coding (20)
+    "how to write a python loop",
+    "what is a variable in programming",
+    "debug this code",
+    "how to define a function in python",
+    "what is recursion",
+    "explain object oriented programming",
+    "how to create a list in python",
+    "what is a dictionary in python",
+    "fix this python error",
+    "how to write an if statement",
+    "what is a boolean",
+    "how to open a file in python",
+    "what is a class",
+    "how to use try except",
+    "what is a for loop",
+    "how to append to a list",
+    "what is a while loop",
+    "how to import a module",
+    "what is time complexity",
+    "how to comment code properly",
+
+    # English (20)
+    "fix my grammar",
+    "rewrite this sentence",
+    "correct my English",
+    "translate this to English",
+    "improve this paragraph",
+    "check my spelling",
+    "explain this phrase",
+    "what does this word mean",
+    "help me write a better sentence",
+    "correct my punctuation",
+    "rewrite this in formal English",
+    "simplify this sentence",
+    "improve my writing",
+    "check this essay",
+    "explain this idiom",
+    "fix my English mistakes",
+    "rewrite this politely",
+    "help me with vocabulary",
+    "correct this grammar error",
+    "rewrite this in casual English",
+
+    # General (20)
+    "tell me a joke",
+    "who are you",
+    "what is the weather today",
+    "give me a fun fact",
+    "how are you",
+    "what is your name",
+    "tell me something interesting",
+    "what time is it",
+    "what is the meaning of life",
+    "recommend a movie",
+    "tell me a story",
+    "what is happening today",
+    "how do I stay healthy",
+    "what is your favorite color",
+    "tell me a random fact",
+    "what is the capital of France",
+    "how do airplanes fly",
+    "what is the tallest mountain",
+    "tell me something cool",
+    "what is the fastest animal"
+]
+
+
+labels = (
+    ["Math"] * 20 +
+    ["Coding"] * 20 +
+    ["English"] * 20 +
+    ["General"] * 20
+)

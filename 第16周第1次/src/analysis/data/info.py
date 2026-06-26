@@ -1,0 +1,1 @@
+LOG_PATH = "data/user_logs.jsonl"
