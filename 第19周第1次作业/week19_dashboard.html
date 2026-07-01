@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning Analytics Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 24px; }
+        .card { border: 1px solid #ddd; padding: 16px; margin-bottom: 16px; border-radius: 8px; }
+        button { padding: 8px 14px; margin-right: 8px; }
+    </style>
+</head>
+<body>
+    <h1>AI Learning Analytics Dashboard</h1>
+    <div class="card">
+        <h2>Question Statistics</h2>
+        <p id="questionCount">Total questions: 8</p>
+    </div>
+    <div class="card">
+        <h2>Category Statistics</h2>
+        <p id="categoryStats">Math: 4 | Coding: 4</p>
+    </div>
+    <div class="card">
+        <h2>Accuracy</h2>
+        <p id="accuracyText">Accuracy: 87.50%</p>
+    </div>
+    <div class="card">
+        <h2>Error Analysis</h2>
+        <ul id="errorList">
+            <li>Question 3: wrong category</li>
+            <li>Question 6: wrong answer</li>
+        </ul>
+    </div>
+
+    <button id="showBtn">Show Result</button>
+    <button id="hideBtn">Hide Result</button>
+    <button id="reloadBtn">Reload</button>
+
+    <div id="resultPanel" class="card" style="display:none;">
+        <h2>Dynamic Result</h2>
+        <p id="dynamicMessage">This panel is controlled by JavaScript.</p>
+    </div>
+
+    <script>
+        const resultPanel = document.getElementById("resultPanel");
+        const dynamicMessage = document.getElementById("dynamicMessage");
+
+        document.getElementById("showBtn").onclick = function() {
+            resultPanel.style.display = "block";
+            dynamicMessage.innerHTML = "Hello";
+        };
+
+        document.getElementById("hideBtn").onclick = function() {
+            resultPanel.style.display = "none";
+        };
+
+        document.getElementById("reloadBtn").onclick = function() {
+            window.location.reload();
+        };
+    </script>
+</body>
+</html>
