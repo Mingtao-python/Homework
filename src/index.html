@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Learning Companion Platform V2</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>AI Learning Companion Platform V2</h1>
+
+  <section>
+    <h2>模型比较</h2>
+    <button class="chip active">Rule-Based</button>
+    <button class="chip">KNN</button>
+    <button class="chip">Logistic</button>
+
+    <table>
+      <tr><th>模型</th><th>Strength</th><th>Weakness</th></tr>
+      <tr><td>Rule-Based</td><td>规则清晰</td><td>覆盖有限</td></tr>
+      <tr><td>KNN</td><td>直观</td><td>受噪声影响</td></tr>
+      <tr><td>Logistic</td><td>可解释</td><td>依赖特征</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>动态统计</h2>
+    <p>统计值：<strong id="statValue">0</strong></p>
+    <button id="updateStatBtn">更新统计</button>
+  </section>
+
+  <section>
+    <h2>结果折叠</h2>
+
+    <div class="collapse-item">
+      <button class="collapse-btn">查看 KNN 结果</button>
+      <div class="collapse-content">
+        <p>KNN 适合相似学习推荐。</p>
+      </div>
+    </div>
+
+    <div class="collapse-item">
+      <button class="collapse-btn">查看 Logistic 结果</button>
+      <div class="collapse-content">
+        <p>Logistic 适合学习风险预测。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>安全模块：数据边界分析</h2>
+    <p>数据来源：学习记录、练习日志。</p>
+    <p>污染方式：错误标签、重复提交。</p>
+    <p>保护方式：输入检查、访问控制。</p>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
