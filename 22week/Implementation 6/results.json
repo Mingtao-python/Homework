@@ -1,0 +1,395 @@
+{
+  "configurations": [
+    {
+      "config_id": "100_1_TF-IDF",
+      "chunk_size": 100,
+      "top_k": 1,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 13.0
+    },
+    {
+      "config_id": "100_1_MiniLM",
+      "chunk_size": 100,
+      "top_k": 1,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 13.0
+    },
+    {
+      "config_id": "100_1_BERT",
+      "chunk_size": 100,
+      "top_k": 1,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 13.0
+    },
+    {
+      "config_id": "100_3_TF-IDF",
+      "chunk_size": 100,
+      "top_k": 3,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 17.0
+    },
+    {
+      "config_id": "100_3_MiniLM",
+      "chunk_size": 100,
+      "top_k": 3,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 17.0
+    },
+    {
+      "config_id": "100_3_BERT",
+      "chunk_size": 100,
+      "top_k": 3,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 17.0
+    },
+    {
+      "config_id": "100_5_TF-IDF",
+      "chunk_size": 100,
+      "top_k": 5,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 21.0
+    },
+    {
+      "config_id": "100_5_MiniLM",
+      "chunk_size": 100,
+      "top_k": 5,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 21.0
+    },
+    {
+      "config_id": "100_5_BERT",
+      "chunk_size": 100,
+      "top_k": 5,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 21.0
+    },
+    {
+      "config_id": "300_1_TF-IDF",
+      "chunk_size": 300,
+      "top_k": 1,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 15.0
+    },
+    {
+      "config_id": "300_1_MiniLM",
+      "chunk_size": 300,
+      "top_k": 1,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 15.0
+    },
+    {
+      "config_id": "300_1_BERT",
+      "chunk_size": 300,
+      "top_k": 1,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 15.0
+    },
+    {
+      "config_id": "300_3_TF-IDF",
+      "chunk_size": 300,
+      "top_k": 3,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 19.0
+    },
+    {
+      "config_id": "300_3_MiniLM",
+      "chunk_size": 300,
+      "top_k": 3,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 19.0
+    },
+    {
+      "config_id": "300_3_BERT",
+      "chunk_size": 300,
+      "top_k": 3,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 19.0
+    },
+    {
+      "config_id": "300_5_TF-IDF",
+      "chunk_size": 300,
+      "top_k": 5,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 23.0
+    },
+    {
+      "config_id": "300_5_MiniLM",
+      "chunk_size": 300,
+      "top_k": 5,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 23.0
+    },
+    {
+      "config_id": "300_5_BERT",
+      "chunk_size": 300,
+      "top_k": 5,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 23.0
+    },
+    {
+      "config_id": "500_1_TF-IDF",
+      "chunk_size": 500,
+      "top_k": 1,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 17.0
+    },
+    {
+      "config_id": "500_1_MiniLM",
+      "chunk_size": 500,
+      "top_k": 1,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 17.0
+    },
+    {
+      "config_id": "500_1_BERT",
+      "chunk_size": 500,
+      "top_k": 1,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1
+      ],
+      "avg_score": 0.541,
+      "max_score": 0.541,
+      "retrieval_time_ms": 17.0
+    },
+    {
+      "config_id": "500_3_TF-IDF",
+      "chunk_size": 500,
+      "top_k": 3,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 21.0
+    },
+    {
+      "config_id": "500_3_MiniLM",
+      "chunk_size": 500,
+      "top_k": 3,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 21.0
+    },
+    {
+      "config_id": "500_3_BERT",
+      "chunk_size": 500,
+      "top_k": 3,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1,
+        4,
+        2
+      ],
+      "avg_score": 0.247,
+      "max_score": 0.541,
+      "retrieval_time_ms": 21.0
+    },
+    {
+      "config_id": "500_5_TF-IDF",
+      "chunk_size": 500,
+      "top_k": 5,
+      "embedding_model": "TF-IDF",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 25.0
+    },
+    {
+      "config_id": "500_5_MiniLM",
+      "chunk_size": 500,
+      "top_k": 5,
+      "embedding_model": "MiniLM",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 25.0
+    },
+    {
+      "config_id": "500_5_BERT",
+      "chunk_size": 500,
+      "top_k": 5,
+      "embedding_model": "BERT",
+      "top_docs": [
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "avg_score": 0.148,
+      "max_score": 0.541,
+      "retrieval_time_ms": 25.0
+    }
+  ],
+  "total_combinations": 27,
+  "best_config": {
+    "config_id": "100_1_TF-IDF",
+    "chunk_size": 100,
+    "top_k": 1,
+    "embedding_model": "TF-IDF",
+    "top_docs": [
+      1
+    ],
+    "avg_score": 0.541,
+    "max_score": 0.541,
+    "retrieval_time_ms": 13.0
+  }
+}

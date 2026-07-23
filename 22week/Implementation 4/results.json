@@ -1,0 +1,37 @@
+{
+  "query": "How does semantic retrieval work?",
+  "top_k": 5,
+  "semantic_results": [
+    {
+      "rank": 1,
+      "doc_id": 10,
+      "score": 0.21481277036546279,
+      "text": "Lexical and semantic signals can be combined for hybrid retr"
+    },
+    {
+      "rank": 2,
+      "doc_id": 1,
+      "score": 0.20863954929414086,
+      "text": "Semantic retrieval uses embeddings to find passages by meani"
+    },
+    {
+      "rank": 3,
+      "doc_id": 4,
+      "score": 0.13566588965525583,
+      "text": "Keyword search is often less robust than semantic matching."
+    },
+    {
+      "rank": 4,
+      "doc_id": 5,
+      "score": 0.07949615712640011,
+      "text": "Dense retrieval improves recall for paraphrased questions."
+    },
+    {
+      "rank": 5,
+      "doc_id": 8,
+      "score": 0.06526562864315022,
+      "text": "Retrieval augmented generation combines search with language"
+    }
+  ],
+  "total_docs": 10
+}

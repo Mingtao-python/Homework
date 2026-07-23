@@ -1,0 +1,91 @@
+{
+  "query": [
+    0.9,
+    0.2,
+    0.15
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "text": "FAISS is used for fast vector search.",
+      "vector": [
+        0.95,
+        0.1,
+        0.2
+      ],
+      "source": "research_paper_1"
+    },
+    {
+      "id": 2,
+      "text": "Approximate nearest neighbor methods trade precision for speed.",
+      "vector": [
+        0.8,
+        0.25,
+        0.1
+      ],
+      "source": "textbook"
+    },
+    {
+      "id": 3,
+      "text": "Indexing allows batch retrieval over many embeddings.",
+      "vector": [
+        0.2,
+        0.85,
+        0.3
+      ],
+      "source": "technical_doc"
+    },
+    {
+      "id": 4,
+      "text": "Vector databases support semantic retrieval.",
+      "vector": [
+        0.4,
+        0.7,
+        0.8
+      ],
+      "source": "blog_post"
+    },
+    {
+      "id": 5,
+      "text": "Top-K search returns the most relevant candidates.",
+      "vector": [
+        0.7,
+        0.2,
+        0.6
+      ],
+      "source": "tutorial"
+    },
+    {
+      "id": 6,
+      "text": "Hashing techniques reduce search complexity significantly.",
+      "vector": [
+        0.75,
+        0.15,
+        0.65
+      ],
+      "source": "research_paper_2"
+    },
+    {
+      "id": 7,
+      "text": "Quantization compresses vectors for efficient storage.",
+      "vector": [
+        0.65,
+        0.35,
+        0.55
+      ],
+      "source": "technical_doc"
+    },
+    {
+      "id": 8,
+      "text": "Product quantization enables billion-scale retrieval.",
+      "vector": [
+        0.55,
+        0.45,
+        0.5
+      ],
+      "source": "research_paper_3"
+    }
+  ],
+  "num_docs": 8,
+  "index_type": "NumPy"
+}

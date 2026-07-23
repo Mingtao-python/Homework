@@ -1,0 +1,32 @@
+[
+  {
+    "score": 0.9961015131081605,
+    "id": 2,
+    "text": "FAISS supports efficient nearest-neighbor indexing.",
+    "category": "indexing"
+  },
+  {
+    "score": 0.9839960640236158,
+    "id": 1,
+    "text": "Vector databases store embeddings for fast similarity search.",
+    "category": "database"
+  },
+  {
+    "score": 0.9572923632468037,
+    "id": 7,
+    "text": "Transformer architectures dominate modern NLP tasks.",
+    "category": "architecture"
+  },
+  {
+    "score": 0.9235173128281936,
+    "id": 10,
+    "text": "Dense retrieval outperforms sparse keyword-based methods.",
+    "category": "comparison"
+  },
+  {
+    "score": 0.8813901170642009,
+    "id": 8,
+    "text": "Attention mechanisms enable models to focus on relevant tokens.",
+    "category": "mechanism"
+  }
+]

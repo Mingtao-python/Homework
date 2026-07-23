@@ -1,0 +1,20 @@
+{
+  "documents": [
+    "RAG uses retrieval to find relevant passages before generation.",
+    "Vector databases support efficient similarity search over embeddings.",
+    "Transformers generate fluent text from context-rich prompts.",
+    "Chunk optimization balances context length and retrieval precision.",
+    "FAISS enables fast approximate nearest neighbor search at scale.",
+    "Multi-stage retrieval refines candidates through ranking pipelines.",
+    "Knowledge graphs augment retrieval with structured information.",
+    "Query understanding improves retrieval by clarifying intent."
+  ],
+  "questions": [
+    "What does RAG combine?",
+    "How are vector databases used?",
+    "What does FAISS help with?",
+    "How can retrieval be optimized?"
+  ],
+  "retrieval_method": "TF-IDF",
+  "num_docs": 8
+}
